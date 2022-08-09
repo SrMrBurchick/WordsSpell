@@ -7,3 +7,5 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(${PROJECT_NAME} words_counter.cpp)
+target_compile_definitions(${PROJECT_NAME}
+    PUBLIC DATA_FILE="${PROJECT_SOURCE_DIR}/text.txt")
