@@ -5,3 +5,9 @@
 
 # Solution report
 Task will be develop with CMake instead of Visual Studio
+
+# Usage:
+`cmake -S . -B build`
+`cmake --bild build`
+`./build/WordsCounter`
+
